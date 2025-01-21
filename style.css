@@ -95,6 +95,11 @@ main p{
     text-align: center;
     font-weight:600;
     margin-top: 0px;
+
+}
+main .sub-title{
+    color: red;   
+    border-bottom: 3px solid red;
 }
 
 .fetured-container{
@@ -160,9 +165,111 @@ margin-top: 20px;
 
 }
 
+.client-title span{
+    color: #E76F51;
+    font-size: 48px;
+}
+
+.client-container{
+    display: flex;
+    gap: 30px;
+    
+
+}
+
+.claint-info{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 205, 205);
+    padding: 30px;
+    
+  
+}
+
+.claint-info p{
+    margin-top: 10px;
+   
+}
+
+.clint-title{
+    color: #23A6F0;
+   
+
+}
+.question-title{
+    margin: 30px 0px;
+}
+
+.question-title span{
+    color: #E76F51;
+}
+
+.question-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+question-item-img{
+    width: 50%;
+
+}
+.question-item-img{
+    text-align: center;
+}
+
+.question-item-input-form{
+    width: 50%;
+}
 
 
+.question-item-input-form input[type=text], input[type='email']{
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 10px;
+    border-color: #E76F51;
+  
+}
+.btn-primary{
+ 
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 60%;
+    background-color: #E76F51;
+    border: 0;
 
+}
+
+.footerItem-info ul{
+    display: flex;
+    list-style: none;
+}
+
+.footerItem-info li{
+  margin: 10px;
+}
+
+.footer_conainer{
+    background-color: #0B0D17;
+    padding: 30px;
+    color: white;
+    display: flex;
+}
+
+.footerItem-store{
+    width: 50%;
+}
+
+.footerItem-store img{
+    width: 30%;
+    display: block;
+    margin: 10px;   
+}
+
+.footerItem-store-item{
+    float: right;
+   }
 
 
 @media screen and (max-width: 576px) {
@@ -175,6 +282,17 @@ margin-top: 20px;
 
     }
     .letest-news{
+        flex-direction: column;
+    }
+    .client-container{
+       flex-direction: column;
+    
+    }
+    .footer_conainer{
+        flex-direction: column;
+    }
+
+    .question-container{
         flex-direction: column;
     }
 }
